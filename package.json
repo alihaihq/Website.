@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && npm run cp-dist",
-    "cp-dist": "rm -rf ./docs && mv build docs",
+    "cp-dist": "rm -rf ./docs && mv build docs && cp CNAME.original ./docs/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
