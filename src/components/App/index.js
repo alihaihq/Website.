@@ -45,6 +45,24 @@ const App = () => {
           <div className="curve"></div>
         </div>
         <div className="content">
+          <div className="header-bar">
+            <div className="contact-item">
+              <Icon type="phone" style={{ marginRight: 5 }} />
+              <div className="contact-list">
+                <span>+91 7001871118</span>
+                <span>,&nbsp;</span>
+                <span>+91 9123796456</span>
+              </div>
+            </div>
+            <div className="contact-item">
+              <Icon type="mail" style={{ marginRight: 5 }} />
+              <div className="contact-list">
+                <span>alihaistore@gmail.com</span>
+                <span>,&nbsp;</span>
+                <span>hello@rousan.io</span>
+              </div>
+            </div>
+          </div>
           <header className="header">
             <img src={logoImg} alt="Alihai Logo" />
           </header>

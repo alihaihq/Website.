@@ -42,10 +42,32 @@
   z-index: 99;
 }
 
+.app .content .header-bar {
+  background: #00000070;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.app .content .header-bar .contact-item {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app .content .header-bar .contact-list {
+  display: flex;
+  flex-direction: row;
+}
+
 .app .header {
   width: 1168px;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 60px;
 }
 
 .app .header img {
@@ -135,6 +157,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .app .content .header-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .app .content .header-bar .contact-item {
+    margin: 0;
+    margin-top: 5px;
+  }
   .app .header {
     width: 100%;
     text-align: center;
