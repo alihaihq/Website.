@@ -1,3 +1,3 @@
 # Alihai Website
 
-The home page https://alihaistore.com.
+This contains the distribution files for the [Alihai Store](https://alihaistore.com/) website.
